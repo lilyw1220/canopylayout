@@ -1,0 +1,293 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+  font-size: 10px;
+}
+
+/*-----------------------------------nav bar------------------------------*/
+
+.nav {
+   display: grid;
+   background-color: #96ceb4;
+   grid-column: span 12;
+   grid-template-rows: 5rem;
+}
+
+/*-----------------------------------header------------------------------*/
+
+.header {
+  display: grid;
+  grid-template-columns: repeat (12, 1fr);
+  grid-template-rows: 25rem;
+  background-color: #ff6f69;
+  grid-column: span 12;
+
+}
+
+/*-----------------------------------product pics------------------------------*/
+
+.product-container {
+  display: flex;
+}
+
+.product-container > div {
+  flex: 1;
+  height: 250px;
+
+}
+
+.product-container > div:nth-child(1) {
+  background-color: #f2a1db;
+}
+
+.product-container > div:nth-child(2) {
+  background-color: #b5f2a1;
+}
+
+.product-container > .content-pic1 {
+  flex: 2;
+}
+
+/*-----------------------------------project specs------------------------------*/
+.project-specs {
+  display: flex;
+}
+
+.project-specs > div {
+  flex: 1;
+  height: 250px;
+
+}
+
+.project-specs > div:nth-child(1) {
+  background-color: #a1b7f2;
+}
+
+.project-specs > div:nth-child(2) {
+  background-color: #f2e4a1;
+}
+
+.project-specs > div:nth-child(3) {
+  background-color: #a2eef1;
+}
+
+/*-------------------------------Problem & Solution------------------------*/
+
+.problem-sol {
+  display: grid;
+  grid-column: span 12;
+  height: 300px;
+  background-color: #ad48f7;
+}
+
+/*-----------------------------------Design Process------------------------------*/
+.design-process {
+  display: grid;
+  grid-column: span 12;
+  height: 200px;
+  background-color: #ccf76e;
+
+}
+
+/*-----------------------------------Research & Define------------------------------*/
+.research-define {
+  display: grid;
+  grid-column: span 12;
+  height: 200px;
+  background-color: #70f76e;
+
+}
+
+/*------------------------------Competitive Anlaysis-------------------------*/
+.comp-analysis {
+  display: flex;
+}
+
+.comp-analysis > div {
+  flex: 1;
+  height: 250px;
+
+}
+
+.comp-analysis > div:nth-child(1) {
+  background-color: #a1b7f2;
+}
+
+.comp-analysis > div:nth-child(2) {
+  background-color: #f2e4a1;
+}
+
+.comp-analysis > div:nth-child(3) {
+  background-color: #a2eef1;
+}
+
+/*-----------------------------------Research & Define------------------------------*/
+
+.comp-analysis-text {
+  display: grid;
+  grid-column: span 12;
+  height: 200px;
+  background-color: #d4b8ea;
+
+}
+
+
+/*-----------------------------------project specs------------------------------*/
+.user-survey-stats {
+  display: flex;
+}
+
+.user-survey-stats > div {
+  flex: 1;
+  height: 150px;
+
+}
+
+.user-survey-stats > div:nth-child(1) {
+  background-color: #a1b7f2;
+}
+
+.user-survey-stats > div:nth-child(2) {
+  background-color: #f2e4a1;
+}
+
+.user-survey-stats > div:nth-child(3) {
+  background-color: #a2eef1;
+}
+
+
+
+/*-----------------------------------User Research Graph 1------------------------------*/
+.user-graph-1 {
+  display: grid;
+  grid-column: span 12;
+  height: 200px;
+  background-color: #f882db;
+
+}
+
+
+/*------------------------------Top Cloud Uses-------------------------*/
+.top-uses-cloud {
+  display: flex;
+}
+
+.top-uses-cloud > div {
+  flex: 1;
+  height: 250px;
+
+}
+
+.top-uses-cloud > div:nth-child(1) {
+  background-color: #a1b7f2;
+}
+
+.top-uses-cloud > div:nth-child(2) {
+  background-color: #f2e4a1;
+}
+
+.top-uses-cloud > div:nth-child(3) {
+  background-color: #a2eef1;
+}
+
+
+/*-----------------------------------User Research Graph 2------------------------------*/
+
+.user-graph-2 {
+  display: grid;
+  grid-column: span 12;
+  height: 300px;
+  background-color: #70f76e;
+
+}
+
+
+/*------------------------------Top Cloud Uses-------------------------*/
+.user-persona {
+  display: flex;
+}
+
+.user-persona > div {
+  flex: 1;
+  height: 400px;
+
+}
+
+.user-persona > div:nth-child(1) {
+  background-color: #a1b7f2;
+}
+
+.user-persona > div:nth-child(2) {
+  background-color: #f2e4a1;
+}
+
+
+/*-----------------------------------User Stories----------------------------*/
+
+.user-stories-text {
+  display: grid;
+  grid-column: span 12;
+  height: 300px;
+  background-color: #70f76e;
+
+}
+
+
+/*--------------------------------Info Architecture-----------------------*/
+
+.information-architecture {
+  display: grid;
+  grid-column: span 12;
+  height: 300px;
+  background-color: #febf24 ;
+
+}
+
+
+/*------------------------------Organization Flow-----------------------*/
+
+.organization-flow {
+  display: grid;
+  grid-column: span 12;
+  height: 300px;
+  background-color: #89f9f2;
+
+
+}
+
+
+/*------------------------------Collaboration Flow-----------------------*/
+
+.collab-flow {
+  display: grid;
+  grid-column: span 12;
+  height: 300px;
+  background-color: #ffdde9;
+
+
+}
+
+
+/*------------------------------Site Map-----------------------*/
+
+.sitemap {
+  display: grid;
+  grid-column: span 12;
+  height: 300px;
+  background-color: #dde7ff; 
+
+
+}
+
+
+
+/*-----------------------------------footer------------------------------*/
+
+.footer {
+  background-color:  #6452ad;
+  grid-column: span 12;
+}
