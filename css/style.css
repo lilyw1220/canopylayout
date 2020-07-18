@@ -278,13 +278,439 @@ html {
   display: grid;
   grid-column: span 12;
   height: 300px;
-  background-color: #dde7ff; 
+  background-color: #dde7ff;
 
 
 }
 
 
+/*------------------------------Sketches-----------------------*/
 
+.sketches {
+  display: grid;
+  grid-column: span 12;
+  height: 300px;
+  background-color: #ffebce;
+
+
+}
+
+
+/*----------------------------Sketch Pics-------------------------*/
+.sketch-pics {
+  display: flex;
+}
+
+.sketch-pics > div {
+  flex: 1;
+  height: 200px;
+
+}
+
+.sketch-pics > div:nth-child(1) {
+  background-color: #ff9546;
+
+}
+
+.sketch-pics > div:nth-child(2) {
+  background-color: #b1ff46;
+
+}
+
+
+/*------------------------------Wireframes(low)-------------------------*/
+.wireframes1 {
+  display: flex;
+}
+
+.wireframes1 > div {
+  flex: 1;
+  height: 200px;
+
+}
+
+.wireframes1 > div:nth-child(1) {
+  background-color: #a1b7f2;
+}
+
+.wireframes1 > div:nth-child(2) {
+  background-color: #f2e4a1;
+}
+
+
+.wireframes1 > div:nth-child(3) {
+  background-color:  #c0fceb;
+
+}
+
+
+
+/*------------------------------Wireframes(low)-------------------------*/
+.wireframes2 {
+  display: flex;
+}
+
+.wireframes2 > div {
+  flex: 1;
+  height: 200px;
+
+}
+
+.wireframes2 > div:nth-child(1) {
+  background-color: #f6c0fc;
+
+}
+
+.wireframes2 > div:nth-child(2) {
+  background-color: #b3fda9;
+
+}
+
+
+.wireframes2 > div:nth-child(3) {
+  background-color: #a9fdfb;
+
+
+}
+
+/*------------------------------Wireframes(low)-------------------------*/
+.wireframes3 {
+  display: flex;
+}
+
+.wireframes3 > div {
+  flex: 1;
+  height: 200px;
+
+}
+
+.wireframes3 > div:nth-child(1) {
+  background-color: #ff9546;
+
+}
+
+.wireframes3 > div:nth-child(2) {
+  background-color: #b1ff46;
+
+}
+
+/*----------------------------User Testing Round 1-----------------------*/
+
+.user-test-round1 {
+  display: grid;
+  grid-column: span 12;
+  height: 300px;
+  background-color: #ffebce;
+
+
+}
+
+/*------------------------------User Test Pic------------------------*/
+.user-test-pic {
+  display: flex;
+}
+
+.user-test-pic > div {
+  flex: 1;
+  height: 200px;
+
+}
+
+.user-test-pic > div:nth-child(1) {
+  background-color: #ff9546;
+
+}
+
+.user-test-pic > div:nth-child(2) {
+  background-color: #b1ff46;
+
+}
+
+/*----------------------------User Testing Round 1 a-----------------------*/
+
+.user-test-round1-a {
+  display: grid;
+  grid-column: span 12;
+  height: 300px;
+  background-color: #46f7ff;
+
+
+}
+
+/*------------------------------Wireframes(low)-------------------------*/
+.user-test-pic-a {
+  display: flex;
+}
+
+.user-test-pic-a > div {
+  flex: 1;
+  height: 200px;
+
+}
+
+.user-test-pic-a > div:nth-child(1) {
+  background-color: #ff9546;
+
+}
+
+.user-test-pic-a > div:nth-child(2) {
+  background-color: #b1ff46;
+
+}
+
+/*----------------------------Branding & Identity-----------------------*/
+
+.branding-identity {
+  display: grid;
+  grid-column: span 12;
+  height: 300px;
+  background-color: #46f7ff;
+
+
+}
+
+/*------------------------------Canopy Principles-------------------------*/
+.canopy-principles {
+  display: flex;
+}
+
+.canopy-principles > div {
+  flex: 1;
+  height: 200px;
+
+}
+
+.canopy-principles > div:nth-child(1) {
+  background-color: #f6c0fc;
+
+}
+
+.canopy-principles > div:nth-child(2) {
+  background-color: #b3fda9;
+
+}
+
+
+.canopy-principles > div:nth-child(3) {
+  background-color: #a9fdfb;
+
+
+}
+
+/*----------------------------Color Palette & Typography-----------------------*/
+
+.color-typography {
+  display: grid;
+  grid-column: span 12;
+  height: 300px;
+  background-color: #46f7ff;
+
+
+}
+
+/*----------------------------Logo Development-----------------------*/
+
+.logo {
+  display: grid;
+  grid-column: span 12;
+  height: 300px;
+  background-color: #9ba5ff;
+
+
+}
+
+/*----------------------------Visual Design-----------------------*/
+
+.visual-design {
+  display: grid;
+  grid-column: span 12;
+  height: 300px;
+  background-color: #ffb8d8;
+
+
+}
+
+
+/*----------------------------Preference Testing-----------------------*/
+
+.preference-testing {
+  display: grid;
+  grid-column: span 12;
+  height: 300px;
+  background-color: #b8ffef;
+
+
+}
+
+/*------------------------------Preference Test Pic-------------------------*/
+.preference-test-new {
+  display: flex;
+}
+
+.preference-test-new > div {
+  flex: 1;
+  height: 200px;
+
+}
+
+.preference-test-new > div:nth-child(1) {
+  background-color: #ff9546;
+
+}
+
+.preference-test-new > div:nth-child(2) {
+  background-color: #b1ff46;
+
+}
+
+
+/*------------------------------Preference Test Pic-------------------------*/
+.preference-test-link {
+  display: flex;
+}
+
+.preference-test-link > div {
+  flex: 1;
+  height: 200px;
+
+}
+
+.preference-test-link > div:nth-child(1) {
+  background-color: #b8e0ff;
+
+}
+
+.preference-test-link > div:nth-child(2) {
+  background-color: #ffb8f2;
+
+}
+
+
+/*------------------------------Preference Test Pic-------------------------*/
+.preference-test-success {
+  display: flex;
+}
+
+.preference-test-success > div {
+  flex: 1;
+  height: 200px;
+
+}
+
+.preference-test-success > div:nth-child(1) {
+  background-color: #b8ffd6;
+
+}
+
+.preference-test-success > div:nth-child(2) {
+  background-color: #b8bbff;
+
+}
+
+/*----------------------------Preference Testing-----------------------*/
+
+.user-test-round2 {
+  display: grid;
+  grid-column: span 12;
+  height: 100px;
+  background-color: #fcffb8;
+
+
+
+}
+
+/*------------------------------Preference Test Pic-------------------------*/
+.user-test-round2-change {
+  display: flex;
+}
+
+.user-test-round2-change > div {
+  flex: 1;
+  height: 200px;
+
+}
+
+.user-test-round2-change > div:nth-child(1) {
+  background-color: #b8ffd6;
+
+}
+
+.user-test-round2-change > div:nth-child(2) {
+  background-color: #b8bbff;
+
+}
+
+/*----------------------------Preference Testing-----------------------*/
+
+.user-test-tag-final {
+  display: grid;
+  grid-column: span 12;
+  height: 250px;
+  background-color: #fcffb8;
+
+
+
+}
+
+/*----------------------------Conclusion-----------------------*/
+
+.conclusion {
+  display: grid;
+  grid-column: span 12;
+  height: 100px;
+  background-color: #b8fffa;
+
+
+}
+
+
+/*------------------------------Preference Test Pic-------------------------*/
+.conclusion-pic {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 300px);
+}
+
+.conclusion-pic-1 {
+  background-color: #c1fab4;
+
+}
+
+.conclusion-pic-2 {
+  background-color: #e3fcdd;
+}
+
+.conclusion-pic-3 {
+  background-color: #e3fcdd;
+
+}
+
+.conclusion-pic-4 {
+  background-color: #c1fab4;
+
+}
+
+.conclusion-pic-5 {
+  background-color: #c1fab4;
+
+}
+
+.conclusion-pic-6 {
+  background-color: #e3fcdd;
+
+}
+
+
+/*----------------------------Reflection-----------------------*/
+
+.reflection {
+  display: grid;
+  grid-column: span 12;
+  height: 200px;
+  background-color: #b8fffa;
+
+
+}
 /*-----------------------------------footer------------------------------*/
 
 .footer {
