@@ -8,6 +8,7 @@ html {
   font-size: 10px;
 }
 
+
 /*-----------------------------------nav bar------------------------------*/
 
 .nav {
@@ -652,51 +653,82 @@ html {
 
 }
 
-/*----------------------------Conclusion-----------------------*/
+/*----------------------------Preference Testing-----------------------*/
 
 .conclusion {
   display: grid;
   grid-column: span 12;
   height: 100px;
-  background-color: #b8fffa;
+  background-color: #97fad4;
+
+
 
 
 }
 
 
-/*------------------------------Preference Test Pic-------------------------*/
-.conclusion-pic {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(3, 300px);
+
+/*------------------------------Conclusion Pics Row 1-------------------------*/
+.conclusion-pic-row1 {
+  display: flex;
 }
 
-.conclusion-pic-1 {
-  background-color: #c1fab4;
-
-}
-
-.conclusion-pic-2 {
-  background-color: #e3fcdd;
-}
-
-.conclusion-pic-3 {
-  background-color: #e3fcdd;
+.conclusion-pic-row1 > div {
+  flex: 1;
+  height: 200px;
 
 }
 
-.conclusion-pic-4 {
-  background-color: #c1fab4;
+.conclusion-pic-row1 > div:nth-child(1) {
+  background-color: #b8ffd6;
 
 }
 
-.conclusion-pic-5 {
-  background-color: #c1fab4;
+.conclusion-pic-row1 > div:nth-child(2) {
+  background-color: #b8bbff;
 
 }
 
-.conclusion-pic-6 {
-  background-color: #e3fcdd;
+
+/*------------------------------Conclusion Pics Row 2-------------------------*/
+.conclusion-pic-row2 {
+  display: flex;
+}
+
+.conclusion-pic-row2 > div {
+  flex: 1;
+  height: 200px;
+
+}
+
+.conclusion-pic-row2 > div:nth-child(1) {
+  background-color: #b8bbff;
+
+}
+
+.conclusion-pic-row2 > div:nth-child(2) {
+  background-color: #b8ffd6;
+
+}
+
+/*------------------------------Conclusion Pics Row 2-------------------------*/
+.conclusion-pic-row3 {
+  display: flex;
+}
+
+.conclusion-pic-row3 > div {
+  flex: 1;
+  height: 200px;
+
+}
+
+.conclusion-pic-row3 > div:nth-child(1) {
+  background-color: #b8ffd6;
+
+}
+
+.conclusion-pic-row3 > div:nth-child(2) {
+  background-color: #b8bbff;
 
 }
 
@@ -716,4 +748,116 @@ html {
 .footer {
   background-color:  #6452ad;
   grid-column: span 12;
+}
+
+
+/*----------------------------------MEDIA QUERIES------------------------*/
+
+
+
+/*Desktop*/
+@media only screen and (max-width: 1440px){
+
+  .container {
+    width: 1440px;
+    margin: 0 auto;
+  }
+
+}
+
+/*laptop
+@media only screen and (max-width: 1200px){
+
+}
+*/
+
+/*tablets*/
+@media only screen and (max-width: 768px){
+
+  .container {
+    width: auto;
+  }
+
+  .product-container {
+    display: block;
+
+  }
+
+  .project-specs {
+    display: block;
+  }
+
+  .comp-analysis {
+    display: block;
+  }
+
+  .user-survey-stats {
+    display: block;
+  }
+
+  .top-uses-cloud {
+    display: block;
+  }
+
+  .user-persona {
+    display: block;
+  }
+
+  .sketch-pics {
+    display: block;
+  }
+
+  .wireframes1 {
+    display: block;
+  }
+
+  .wireframes2 {
+    display: block;
+  }
+
+  .wireframes3 {
+    display: block;
+  }
+
+  .user-test-pic {
+    display: block;
+  }
+
+  .user-test-pic-a {
+    display: block;
+  }
+
+  .canopy-principles {
+    display: block;
+  }
+
+  .preference-test-new {
+    display: block;
+  }
+
+  .preference-test-link {
+    display: block;
+  }
+
+  .preference-test-success {
+    display: block;
+
+  }
+
+  .user-test-round2-change {
+    display: block;
+  }
+
+  .conclusion-pic-row1 {
+    display: block;
+  }
+
+  .conclusion-pic-row2 {
+    display: block;
+  }
+
+  .conclusion-pic-row3 {
+    display: block;
+  }
+
 }
